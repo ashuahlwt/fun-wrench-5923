@@ -120,3 +120,48 @@
     justify-content: space-between;
 }
 
+
+
+/* ---------------------------------------------------- */
+
+#one{
+    text-align: center;
+}
+#two{
+    text-align: center;
+    font-size: 20px;
+}
+#four{
+    text-align: center;
+    font-size: 20px;
+    margin-left:480px;
+}
+
+/* -------------------------------------------- */
+#iput{
+    display:grid;
+    height:100px; width:35%;
+    /* border:1px solid black; */
+   
+    margin:auto;
+    margin-top:40px;
+    display:flex;
+    justify-content: space-around;
+  
+
+
+}
+#emmal{
+    height:50px;
+    width:250px;
+    border-radius: 10px;
+}
+#bton{
+    height:56px;
+    width:100px;
+    border-radius: 10px;
+    border:none;
+    background-color: rgba(248, 84, 8, 0.795);
+    font-size: 18px;;
+    color:white;
+}
