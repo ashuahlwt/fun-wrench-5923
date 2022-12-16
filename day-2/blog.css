@@ -1,0 +1,122 @@
+#upper2{
+    display:grid;
+    height:60px;
+    width:100%;
+    /* border:1px solid black; */
+    /* margin-top: 20px;; */
+    display:flex;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+#logo>img{
+    width:45%;
+    
+
+}
+#select{
+    border:none;
+    margin-top:32px;
+    font-size: 20px;;
+}
+#select2{
+    border:none;
+    margin-top:32px;
+    font-size: 20px;;
+}
+#pricing{
+    margin-top:32px;
+    font-size: 20px;;  
+    
+}
+#blog{
+    margin-top:32px;
+    font-size: 20px;;  
+    
+}
+#log{
+    
+    margin-top:32px;
+    font-size: 20px;;
+    border:0px;
+    background-color: white;
+    color:rgb(107, 129, 255);
+  
+}
+#getstart{
+    margin-top:10px;
+    font-size: 20px;;
+    border:0px;
+    padding:15px;
+    border-radius:10px;
+    background-color: rgb(44, 75, 255);
+    color:white;
+    
+}
+
+
+/* ------------------------------------------------------------------ */
+#pic{
+    display:grid;
+    height:400px;
+    width:100%;
+    /* border:1px solid black; */
+    margin-top:50px;
+    display:flex;
+    margin-left:50px;
+}
+#pio1{
+    margin-top:100px;
+}
+#pio2{
+    margin-top:-20px;
+    
+}
+#pio4{
+    margin-top:-40px;
+    font-size: 20px;
+}
+#pio3{
+    
+    font-size: 20px;
+}
+#pic3>img{
+    margin-left:80px;
+}
+
+/* 
+----------------------------------------------------------- */
+
+#outer{
+    display:grid;
+    height:300px;
+    width:100%;
+    /* border:1px solid black; */
+    margin-top:50px;
+    display:flex;
+    justify-content: space-around;
+    margin-left:50px;
+}
+#outer1>img{
+    width:83%;
+}
+#outer2>img{
+    width:85%;
+}
+#outer3>img{
+    width:80%;
+}
+
+/* 
+------------------------------------------------------------------------ */
+
+#ast{
+    display:grid;
+    height:300px;
+    width:100%;
+    /* border:1px solid black; */
+    margin-top:-40px;
+    margin-left:50px;
+    display:flex;
+    justify-content: space-between;
+}
+

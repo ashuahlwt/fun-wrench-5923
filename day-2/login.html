@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./login.css"/>
+</head>
+<body>
+    <div id="big">
+
+        <div id="big1">
+            <img id="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAYzsljrlneJ_PzZzReyHFwcXmXn08zWQfrQ&usqp=CAU"/>
+            <h1 id="lg">Log in</h1>
+
+            <form >
+              
+                <input id="email"type="text"placeholder="Enter your Email"/>
+                <input id="password" type="password"placeholder="Enter your password"/>
+                 <input id="buton"type="submit"value="Log in"/> 
+            </form>
+       
+            <a href="login.html"><p id="an">Create an account</p></a>
+           <a href="https://login.buffer.com/forgot-password?redirect=https%3A%2F%2Fengage.buffer.com"><p id="na">Forgot your password?</p></a>
+            
+            <p id="lane1">We no longer support social sign on. Please click</p>
+            <p id="lane2">here to set your password and access your account. </p>
+        </div>
+        <div id="bigg">
+             <!-- <h1 id="lone">Introducing: A free</h1>
+             <h1 id="lone2">micro-site by Buffer</h1> -->
+            <img src="https://login.buffer.com/img/sp-login-image.png"/>
+        </div>
+
+    </div>
+    
+</body>
+</html>
+<script>
+    let form = document.querySelector("form")
+    
+    // form.addEventListener("submit",signup){
+      
+    
+     let signupLS=JSON.parse(localStorage.getItem("signup")) || [];
+
+    form.addEventListener("submit",function(event){
+     event.preventDefault();
+     let obj={
+       
+        email:form.email.value,
+        password:form.password.value,
+     }
+    //  console.log(obj)
+    if( obj.email == "" || obj.password == ""){
+        alert("Empty Field")
+        
+    }else{
+     signupLS.push(obj)
+     localStorage.setItem("signup",JSON.stringify(signupLS))
+     alert("Login Sucessfullly");
+     window.location.href="index.html"
+    }
+    })
+</script>
